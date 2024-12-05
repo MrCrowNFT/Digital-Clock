@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    background-image: url(cat.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+#clock{
+    font-family: 'fantasy';
+    font-size: 6.5rem;
+    text-align: center;
+    font-weight: bold;
+    color: whitesmoke;
+    backdrop-filter: blur(3px);
+    width: 100%;
+}
